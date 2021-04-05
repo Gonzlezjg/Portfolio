@@ -1,0 +1,11 @@
+{
+    "name": "vendor/composer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gonzlezjg",
+            "email": "15gonzalez.j.p@gmail.com"
+        }
+    ],
+    "require": {}
+}
