@@ -124,7 +124,7 @@
       type: "POST",
       url: action,
       data: data,
-      timeout: 40000
+      timeout: 60000
     }).done( function(msg){
       if (msg.trim() == 'OK') {
         this_form.find('.loading').slideUp();
@@ -158,4 +158,4 @@
     });
   }
 
-})(jQuery);
+})(jquery);
