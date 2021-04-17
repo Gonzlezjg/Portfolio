@@ -32,6 +32,12 @@ header .svg {
   right: 0;
 }
 
+@media( max-width : 730px ){
+  header .svg{
+    background: none;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
