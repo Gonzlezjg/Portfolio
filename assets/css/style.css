@@ -5,7 +5,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
-  color: #fff;
+  color: #e8e8e8;
   position: relative;
   background: transparent;
 }
@@ -13,7 +13,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #0E1E25 url("../img/DSCF5336-min.JPG") right no-repeat;
+  background: #222831 url("../img/DSCF5336-min.JPG") right no-repeat;
   background-size: contain;
   width: -80%;
   left: 0;
@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   z-index: 997;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #header * {
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #1edacd;
+  background: #f13535;
 }
 
 @media (max-width: 992px) {
@@ -145,6 +146,45 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+#header .whats-me {
+  z-index: 1;
+  cursor:pointer;
+  display:flex;
+  align-self: flex-end;
+}
+#header .whats-me  a {
+  flex: 0 1 auto;
+  width: 70px;
+  height: 70px;
+  background-image: url("/assets/img/whatsme.png");
+  background-size: 100%;
+  -webkit-animation: scale-up-center 1s ease-out 0.5s infinite forwards;
+	        animation: scale-up-center 1s ease-out 0.5s infinite forwards;
+}
+#header.header-top .whats-me{
+  display:none;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
@@ -183,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #0E1E25;
+  background-color: #f13535;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -312,6 +352,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+ 
+  #header .whats-me a{
+   width: 50px;
+   height: 50px;
+  }
   #header.header-top {
     height: 60px;
   }
@@ -392,7 +437,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #FF1154;
+  color: #f13535;
 }
 
 .about-me .content ul {
@@ -407,7 +452,7 @@ section .container {
 .about-me .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #FF1154;
+  color: #f13535;
 }
 
 .about-me .content p:last-child {
@@ -437,7 +482,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #FF1154;
+  color: #f13535;
   border-radius: 50px;
 }
 
@@ -469,7 +514,7 @@ section .container {
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-weight: 300;
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
@@ -484,10 +529,9 @@ section .container {
 }
 
 .skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .95s;
-  background-color: #FF1154;
+  width: 100%;
+  height: 2px;
+  background-color: #f05454;
 }
 
 /*--------------------------------------------------------------
@@ -699,7 +743,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #FF1154;
+  color: #f05454;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -736,7 +780,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #FF1154;
+  color: #f05454;
 }
 
 .contact .php-email-form {
@@ -842,7 +886,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #FF1154;
+  background: #f13535;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -851,7 +895,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ff0048;
+  background: #fa0404;
 }
 
 @-webkit-keyframes animate-loading {

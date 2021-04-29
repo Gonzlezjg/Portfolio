@@ -49,7 +49,7 @@
     <div class="container">
       
           <h1 class="ml1">
-        <span class="text-wrapper">
+          <span class="text-wrapper">
           <span class="line line1"></span>
           <span class="letters">Jose Gonzalez</span>
           <span class="line line2"></span>
@@ -73,7 +73,12 @@
         <a href="https://www.instagram.com/gonzalezpjg/" class="instagram" target="_blank"><i class="icofont-instagram"></i></a>
         <a href="https://www.linkedin.com/in/jose-puerta-719b07111/" class="linkedin" target="_blank"><i class="icofont-linkedin"></i></a>
       </div>
+
+     
     </div>
+    </div>
+     <div class="whats-me">
+        <a href="https://wa.me/5804144583460" target="_blank" noopener noreferrer></a>
     </div>
   </header><!-- End Header -->
 
@@ -159,24 +164,18 @@
         <div class="col-lg-6">
 
           <div class="progress">
-            <span class="skill">HTML <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80"></div>
-            </div>
+            <span class="skill">HTML Nivel :<i class="val">Alto</i></span>
+            <div class="progress-bar"></div>
           </div>
 
           <div class="progress">
-            <span class="skill">CSS <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
-            </div>
+            <span class="skill">CSS  Nivel :<i class="val">Medio</i></span>
+            <div class="progress-bar"></div>
           </div>
 
           <div class="progress">
-            <span class="skill">JavaScript <i class="val">75%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
-            </div>
+            <span class="skill">JavaScript Nivel :<i class='val'>Medio-Alto</i></span>
+            <div class="progress-bar"></div>
           </div>
 
         </div>
@@ -185,24 +184,18 @@
 
 
           <div class="progress">
-            <span class="skill">Reactj <i class="val">40%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="10"></div>
-            </div>
+            <span class="skill">Reactjs Nivel :<i class="val">Medio</i></span>
+            <div class="progress-bar"></div>
           </div>
 
           <div class="progress">
-            <span class="skill">Bootstrap <i class="val">55%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="55"></div>
-            </div>
+            <span class="skill">Bootstrap Nivel :<i class="val">Medio</i></span>
+            <div class="progress-bar"></div>
           </div>
 
           <div class="progress">
-            <span class="skill">Figma <i class="val">50%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="55"></div>
-            </div>
+            <span class="skill">Figma Nivel :<i class="val">Bajo-Medio</i></span>
+            <div class="progress-bar"></div>
           </div>
 
         </div>
@@ -261,14 +254,14 @@
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter="*" class="filter-active">Ver Todos</li>
           </ul>
         </div>
       </div>
 
-      <div class="row portfolio-container">
+      <!-- <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-6 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -282,7 +275,7 @@
           </div>
         </div>
  
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <div class="col-lg-6 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-5.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -296,7 +289,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-6 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-3.png" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -310,7 +303,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-6 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-4.jpeg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -324,7 +317,7 @@
           </div>
         </div>
 
-    </div>
+      </div> -->
   </section><!-- End Portfolio Section -->
 
   <!-- ======= Contact Section ======= -->
