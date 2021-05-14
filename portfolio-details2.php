@@ -27,12 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Personal - v3.0.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -65,6 +59,7 @@
             <p>
               Pagina web realizada bajo requerimientos de un cliente.
               Tecnologias usadas: Vanilla Javascript, PHP, Bootstrap y Css3.
+              <a href="https://srserviciotecnico.com/">Visita su web</a>
             </p>
           </div>
 

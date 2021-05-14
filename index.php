@@ -26,11 +26,11 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script> 
 
-  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" defer></script>
   <!--Emailjs-->
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
   <script type="text/javascript">
@@ -189,6 +189,11 @@
           </div>
 
           <div class="progress">
+            <span class="skill">MaterialUI Nivel :<i class="val">Medio</i></span>
+            <div class="progress-bar"></div>
+          </div>
+
+          <div class="progress">
             <span class="skill">Bootstrap Nivel :<i class="val">Medio</i></span>
             <div class="progress-bar"></div>
           </div>
@@ -259,7 +264,7 @@
         </div>
       </div>
 
-      <!-- <div class="row portfolio-container">
+      <div class="row portfolio-container">
 
         <div class="col-lg-6 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
@@ -277,12 +282,12 @@
  
         <div class="col-lg-6 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio-5.jpeg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/portofolio-5.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Pagina Web</h4>
               <p>Web Realizada a Cliente</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/portfolio-details-5.jpeg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details2.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -317,7 +322,7 @@
           </div>
         </div>
 
-      </div> -->
+      </div>
   </section><!-- End Portfolio Section -->
 
   <!-- ======= Contact Section ======= -->

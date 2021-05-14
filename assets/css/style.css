@@ -98,8 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 span {
-  color: #FFf;
-  border-bottom: 2px solid #18FFFF;
+  color: #FFF;
+  border-bottom: 2px solid #f13535;
   padding-bottom: 6px;
 }
 
@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 1 auto;
   width: 70px;
   height: 70px;
-  background-image: url("/assets/img/whatsme.png");
+  background-image: url("/Personal/assets/img/whatsme.png");
   background-size: 100%;
   -webkit-animation: scale-up-center 1s ease-out 0.5s infinite forwards;
 	        animation: scale-up-center 1s ease-out 0.5s infinite forwards;
@@ -354,8 +354,8 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
  
   #header .whats-me a{
-   width: 50px;
-   height: 50px;
+   width: 70px;
+   height: 70px;
   }
   #header.header-top {
     height: 60px;
